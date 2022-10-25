@@ -1,0 +1,518 @@
+/*........................
+      Common Css
+.........................*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+img,
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
+  margin: 0px !important;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(13, 109, 253, 0.2) !important;
+  /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important; */
+}
+
+/*........................................
+.....................................
+          COMMON CUSTOM CODE
+...................................
+........................................*/
+.h2 {
+  letter-spacing: 2.5px;
+  font-size: 2.375rem !important;
+  font-family: "Bebas Neue", cursive;
+}
+
+.h3 {
+  font-size: 1.75rem !important;
+}
+
+.h4 {
+  font-size: 1.5rem !important;
+}
+
+.h5 {
+  font-size: 1.25rem !important;
+}
+
+.h6 {
+  font-size: 1.125rem !important;
+}
+
+.p {
+  font-size: 1rem !important;
+}
+
+.rounded-25 {
+  border-radius: 25px;
+}
+
+.pt-9 {
+  padding-top: 4rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*...........................
+      Navber part  Css  
+.............................*/
+.navbar {
+  z-index: 99;
+  height: 90px;
+  transition: all 0.5s;
+}
+
+.navbg {
+  height: 70px !important;
+  box-shadow: 0px 0px 8px 1px #c5c5c5;
+}
+
+.contact-btn .btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*...........................
+      Banner part  Css  
+.............................*/
+
+.banner-part {
+  padding-top: 90px;
+}
+
+/*...........................
+      what we do part  Css  
+.............................*/
+#whatWeDo {
+  overflow: hidden;
+}
+
+.service-tabs .nav .nav-link {
+  width: 130px;
+  height: 130px;
+}
+
+.service-tabs {
+  transform: rotate(45deg);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #0d6efd;
+}
+
+.accordion-button {
+  border: 1px solid transparent;
+}
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: transparent;
+  border: 1px solid #0d6efd;
+}
+
+/* tabs button  */
+.email-design {
+  top: 0px;
+  z-index: 3;
+  left: 243px;
+}
+
+.website-fixing {
+  top: 0px;
+  z-index: 3;
+  left: 397px;
+}
+
+.web-coding {
+  top: 154px;
+  z-index: 3;
+  left: 95px;
+}
+
+.wordpress-customize {
+  top: 308px;
+  z-index: 3;
+  left: 95px;
+}
+
+.brand-identity {
+  top: 154px;
+  z-index: 3;
+  left: 545px;
+}
+
+.ui-ix-deisgn {
+  top: 308px;
+  z-index: 3;
+  left: 545px;
+}
+
+.stationery-design {
+  top: 462px;
+  z-index: 3;
+  left: 243px;
+}
+
+.social-media {
+  top: 462px;
+  z-index: 3;
+  left: 397px;
+}
+
+/* tabs button  */
+.service-title {
+  width: 220px;
+  height: 220px;
+  background-color: #ffffff;
+}
+
+.service-items {
+  z-index: 2;
+  width: 130px;
+  height: 130px;
+  background-color: #ffffff;
+}
+
+.point-bottom::before {
+  z-index: -1;
+  left: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -35px;
+  position: absolute;
+  border-radius: 50%;
+  background: #0d6efd;
+  border: 3px solid #ffffff;
+  outline: 1px solid #0d6efd;
+  transform: translateX(-50%);
+}
+
+.point-right::before {
+  top: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  right: -30px;
+  position: absolute;
+  border-radius: 50%;
+  background: #0d6efd;
+  border: 3px solid #ffffff;
+  outline: 1px solid #0d6efd;
+  transform: translateY(-50%);
+}
+
+.point-left::before {
+  top: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  left: -30px;
+  position: absolute;
+  border-radius: 50%;
+  background: #0d6efd;
+  border: 3px solid #ffffff;
+  outline: 1px solid #0d6efd;
+  transform: translateY(-50%);
+}
+
+.point-top::before {
+  left: 50%;
+  top: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: -35px;
+  position: absolute;
+  border-radius: 50%;
+  background: #0d6efd;
+  border: 3px solid #ffffff;
+  outline: 1px solid #0d6efd;
+  transform: translateX(-50%);
+}
+
+.service-title span {
+  font-weight: 600;
+  font-size: 25px;
+  transform: rotate(-45deg);
+}
+
+.service-items .items-text {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+}
+
+.border-separet-dashed {
+  border: 2px dashed #c5c5c5;
+}
+
+.service-items span {
+  text-align: center;
+}
+
+.email-design:hover .items-text {
+  color: red;
+}
+
+/*...........................
+      About Us part  Css  
+.............................*/
+.experience-icon i {
+  font-size: 30px;
+}
+
+/*...........................
+      services part  Css  
+.............................*/
+
+/*...........................
+      Clients Rating part  Css  
+.............................*/
+
+.client-satisfied .number {
+  font-size: 70px;
+}
+
+.client-satisfied .detail {
+  font-size: 16px;
+}
+
+/*...........................
+      review part css  
+.............................*/
+#review {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/map2.png);
+}
+
+.client-review span {
+  font-size: 16px;
+}
+
+.name-title {
+  font-weight: 600;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 50%;
+  width: 40px;
+  opacity: 0.7;
+  bottom: auto;
+  height: 40px;
+  font-size: 40px;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 28px;
+}
+
+.carousel-control-next {
+  right: 28px;
+}
+
+/*...........................
+      Contact part  Css  
+.............................*/
+.contact-number,
+.contact-location {
+  height: 110px;
+  max-width: 50%;
+}
+
+.contact-icon i {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 2.6;
+}
+
+.contact-form .minimum-time {
+  font-size: 16px;
+}
+
+/*...........................
+      Footer part  Css  
+.............................*/
+
+.footer-social-icon i {
+  width: 32px;
+  height: 32px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .navbar {
+    height: auto !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    height: auto !important;
+  }
+
+  .email-design {
+    left: 218px;
+  }
+
+  .website-fixing {
+    left: 372px;
+  }
+
+  .web-coding {
+    left: 70px;
+  }
+
+  .wordpress-customize {
+    left: 70px;
+  }
+
+  .brand-identity {
+    left: 520px;
+  }
+
+  .ui-ix-deisgn {
+    left: 520px;
+  }
+
+  .stationery-design {
+    left: 218px;
+  }
+
+  .social-media {
+    left: 372px;
+  }
+
+  .contact-number,
+  .contact-location {
+    max-width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .brand-identity {
+    left: 440px;
+  }
+
+  .email-design {
+    left: 138px;
+  }
+
+  .website-fixing {
+    left: 292px;
+  }
+
+  .ui-ix-deisgn {
+    left: 440px;
+  }
+
+  .social-media {
+    left: 292px;
+  }
+
+  .web-coding {
+    left: -10px;
+  }
+
+  .wordpress-customize {
+    left: -10px;
+  }
+
+  .stationery-design {
+    left: 138px;
+  }
+
+  .contact-number,
+  .contact-location {
+    max-width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .email-design {
+    left: 191px;
+  }
+
+  .website-fixing {
+    left: 344px;
+  }
+
+  .brand-identity {
+    left: 493px;
+  }
+
+  .ui-ix-deisgn {
+    left: 493px;
+  }
+
+  .social-media {
+    left: 344px;
+  }
+
+  .stationery-design {
+    left: 191px;
+  }
+
+  .wordpress-customize {
+    left: 43px;
+  }
+
+  .web-coding {
+    left: 42px;
+  }
+}
